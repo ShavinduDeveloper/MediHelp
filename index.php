@@ -109,7 +109,7 @@ and open the template in the editor.
         </div>
 
         
-        
+
         <!-- Footer -->
         <div id="footer" class="bg-dark fixed-bottom">
             <div class="container-fluid">
