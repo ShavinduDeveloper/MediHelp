@@ -65,7 +65,7 @@ and open the template in the editor.
                             <a class="nav-link" href="#">Department</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Doctors</a>
+                            <a class="nav-link" href="doctors.php">Doctors</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -80,42 +80,50 @@ and open the template in the editor.
         </nav>
 
 
-
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div id="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img/01.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/02.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/03.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="src/img/01.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="src/img/02.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="src/img/03.png" class="d-block w-100" alt="...">
-                </div>
+            <div class = "heddings">
+                <h1>Welcome</h1>
+                <p>
+                    At MediHelp, we believe that healthcare should be accessible to everyone, no matter where they are. We are delighted to have you here, where we bring medical expertise and care right to your fingertips.
+                    With our user-friendly telemedicine platform, you can connect with qualified healthcare professionals from the comfort of your own home. Whether you have a medical concern, need a prescription refill, or simply seek professional advice, our dedicated team is ready to assist you.
+                </p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
-        
+
 
         <!-- Footer -->
-        <div id="footer" class="bg-dark fixed-bottom">
+        <!-- <div id="footer" class="bg-dark fixed-bottom">
             <div class="container-fluid">
                 Under Construction by - <b>STS Software Development</b>
             </div>
-        </div>
+        </div> -->
 
     </body>
 </html>

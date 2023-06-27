@@ -13,12 +13,14 @@ and open the template in the editor.
 }
 
 body{
-    background-color: #222;
+    background-color: #ffffff;
 }
 
 #nav{
     border: none;
     padding: 30px;
+    background-color: black;
+    position: fixed;
 }
 
 #footer{
@@ -36,4 +38,16 @@ body{
 
 #nav ul li .active{
     color: red;
+}
+.heddings{
+    font-family: "CC";
+    text-align: center;
+}
+.heddings h1 {
+    display: inline;
+    background: linear-gradient(to left, #1e00ff, #151d8b 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+    font-size: 30px;
 }
