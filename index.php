@@ -90,6 +90,7 @@ and open the template in the editor.
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <button></button>
                         <img src="src/img/01.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
