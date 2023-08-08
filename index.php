@@ -69,7 +69,7 @@ and open the template in the editor.
                             <a class="nav-link" href="doctors.php">Doctors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
