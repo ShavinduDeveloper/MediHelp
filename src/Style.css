@@ -58,18 +58,20 @@ body{
     padding: none;
     position: relative;
 }
-.container-doctor{
-    background-color: rgb(131, 131, 131);
-    color: aliceblue;
+.container-doctor:hover{
+    -webkit-box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    -moz-box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    box-shadow:0 5px 20px rgba(0,0,0,0.1)
 }
 .img-doctor{
-    background-color: aliceblue;
+    background-color: rgb(240, 255, 242);
 }
 .doctor-head{
-    background-color: rgb(204, 230, 252);
+    margin-bottom: none;
+    background-color: rgb(204, 252, 206);
     color: black;
 }
 .doctor-head :hover{
-    background-color: black;
+    background:linear-gradient(to right, #00ffb7, #000000);
     color: aliceblue;
 }
