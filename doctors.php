@@ -75,7 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="src/img/Dector.png" alt="">
+                    <img src="src/img/01.png" alt="">
                     <h1>Our doctors</h1>
                 </div>
             </div>
