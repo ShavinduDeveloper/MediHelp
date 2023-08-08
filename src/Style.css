@@ -58,6 +58,18 @@ body{
     padding: none;
     position: relative;
 }
-,.container h1{
-    position:fixed;
+.container-doctor{
+    background-color: rgb(131, 131, 131);
+    color: aliceblue;
+}
+.img-doctor{
+    background-color: aliceblue;
+}
+.doctor-head{
+    background-color: rgb(204, 230, 252);
+    color: black;
+}
+.doctor-head :hover{
+    background-color: black;
+    color: aliceblue;
 }
