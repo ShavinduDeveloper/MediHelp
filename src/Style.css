@@ -13,7 +13,16 @@ and open the template in the editor.
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #000;
+}
+
+#preloader{
+    background: #000000 url("img/giphy.gif") no-repeat center;
+    background-size: 35%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
 }
 
 #nav{
@@ -40,14 +49,222 @@ body{
     color: red;
 }
 .heddings{
+    margin-top: 50px;
+    padding-bottom: 50px;
     font-family: "CC";
+    color: #fff;
     text-align: center;
 }
 .heddings h1 {
     display: inline;
-    background: linear-gradient(to left, #1e00ff, #151d8b 100%);
+    background: linear-gradient(to left, #ff0000, #ff0015 100%);
     background-position: 0 100%;
-    background-size: 100% 2px;
+    background-size: 100% 4px;
     background-repeat: repeat-x;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.heddings p{
+    margin: 50px 100px 50px 100px;
+    font-size: 20px;
+}
+
+.heddings p span{
     font-size: 30px;
+    color: #ff0000;
+}
+
+.heddings hr{
+    margin: 0 80px 50px 80px;
+    border-top: 5px solid red;
+}
+
+.banner-area{
+    padding: 0 50px 0 50px;
+}
+
+.banner-area img{
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+.template-btn {
+    color: #fff;
+    background: red;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 12px 30px !important;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.banner-area h4{
+    margin-top: 50px;
+    color: #00ff00;
+}
+
+.banner-area h1{
+    margin-top: 50px;
+    color: #fff;
+}
+
+.banner-area p{
+    margin-top: 30px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.banner-area img{
+    border-radius: 20px;
+}
+
+.section-padding {
+    padding: 130px 0
+}
+
+.single-feature{
+    background: #111;
+    padding: 50px 20px 50px 20px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 300px;
+}
+
+.single-feature:hover{
+    background: #333;
+    -webkit-border-radius: 30px
+    -moz-border-radius: 30px
+    -ms-border-radius: 30px
+    -o-border-radius: 30px
+    border-radius: 30px
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.single-feature img {
+    margin-bottom: 40px
+}
+
+.hotline-area {
+    color: #fff;
+    background-image: url("img/giphy.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+
+
+.hotline-area:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hotline-area h2 {
+    color: #fff;
+}
+
+.hotline-area span {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: red;
+}
+
+.footer-area {
+    color: #fff;
+    background: #12151f
+}
+
+.footer-area h3 {
+    color: #fff
+}
+
+.footer-area a {
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.footer-area a:hover {
+    color: #244cfd
+}
+
+
+.footer-copyright {
+    margin-top: 40px
+}
+
+.footer-copyright .color {
+    color: #244cfd
+}
+
+.footer-copyright ul {
+    float: right
+}
+
+.footer-copyright ul li {
+    display: inline;
+    margin-left: 10px
+}
+
+
+.footer-copyright ul li i {
+    display: inline-block;
+    padding: 10px;
+    color: #777;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.footer-copyright ul li i:hover {
+    color: #fff;
+    background: red;
+}
+
+.footer-copyright b{
+    color: red;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footer-copyright ul {
+        float: left;
+        margin-top: 30px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-copyright ul {
+        float: left;
+        margin-top: 30px
+    }
+}
+.spft{
+    padding: 25px;
 }

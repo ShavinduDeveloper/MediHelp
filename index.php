@@ -35,6 +35,7 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
+        <div id="preloader"></div>
 
         <!-- Navigation Bar -->
         <nav id="nav" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
@@ -53,7 +54,7 @@ and open the template in the editor.
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
@@ -107,23 +108,125 @@ and open the template in the editor.
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class = "heddings">
+
+            <div class="heddings">
+                <hr>
                 <h1>Welcome</h1>
                 <p>
-                    At MediHelp, we believe that healthcare should be accessible to everyone, no matter where they are. We are delighted to have you here, where we bring medical expertise and care right to your fingertips.
+                    At <span>MediHelp</span>, we believe that healthcare should be accessible to everyone, no matter where they are. We are delighted to have you here, where we bring medical expertise and care right to your fingertips.
                     With our user-friendly telemedicine platform, you can connect with qualified healthcare professionals from the comfort of your own home. Whether you have a medical concern, need a prescription refill, or simply seek professional advice, our dedicated team is ready to assist you.
                 </p>
+                <hr>
             </div>
+
+            <!-- Banner Area Starts -->
+            <section class="banner-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="src/img/banner-bg.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-7">
+                            <h4>Caring for better life</h4>
+                            <h1>Leading the way in medical excellence</h1>
+                            <p> It is important to take care of our health not only for ourselves, but also for our loved ones.health and wellness advice that’s inclusive and rooted in medical expertise.</p>
+                            <a href="appoinment.html" class="template-btn">take appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner Area End -->
         </div>
 
 
+        <!-- Feature Area Starts -->
+        <section class="feature-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-feature text-center item-padding">
+                            <img src="src/img/feature1.png" alt="">
+                            <h3>advance technology</h3>
 
-        <!-- Footer -->
-        <!-- <div id="footer" class="bg-dark fixed-bottom">
-            <div class="container-fluid">
-                Under Construction by - <b>STS Software Development</b>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-feature text-center item-padding mt-4 mt-md-0">
+                            <img src="src/img/feature2.png" alt="">
+                            <h3>comfortable place</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-feature text-center item-padding mt-4 mt-lg-0">
+                            <img src="src/img/feature3.png" alt="">
+                            <h3>quality equipment</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-feature text-center item-padding mt-4 mt-lg-0">
+                            <img src="src/img/feature4.png" alt="">
+                            <h3>friendly staff</h3>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> -->
+        </section>
+        <!-- Feature Area End -->
 
-    </body>
+        <!-- Hotline Area Starts -->
+        <section class="hotline-area text-center section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Emergency hotline</h2>
+                        <span>+94 34 545 5454</span>
+                        <p class="pt-3">We provide 24/7 customer support. Please feel free to contact us <br>for emergency case.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hotline Area End -->
+
+        <!-- Footer Area Starts -->
+        <footer class="footer-area spft">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 align-content-center">
+                        <span>
+
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <b>Medi Help </b><a href="https://colorlib.com" target="_blank"></a>
+
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 align-content-center">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+    <script>
+
+//          Code of the Preloader 
+
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+
+//         ----------------------
+    </script>
+</body>
 </html>
